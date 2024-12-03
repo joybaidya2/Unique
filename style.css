@@ -1,0 +1,443 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+body{
+    margin: 0;
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+.js{
+    border: dotted;
+    border-bottom: none;
+    padding: 20px auto;
+}
+/*For mobile */
+[class*="col-"]{
+    width: 100%;
+}
+
+/* Navbar design here */
+
+.imj{
+    height: 60px;
+    width: 80px;
+}
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+}
+p{
+    text-align: justify;
+    font-size: 1.2rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.joy{
+    background-color: rgba(0, 0, 128, 0.608);
+    padding: 1% 7%;
+    text-align: center;
+}
+.joy::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+.nav a{
+    background-color: indigo;
+    border-radius: 10px;
+    margin: 7px 0px;
+    padding: 10px;
+}
+.nav a:hover{
+    background-color: rgba(255, 0, 0, 0.835);
+}
+.am:hover{
+    color: gold;
+    font-size: 2.8rem;
+}
+
+/* Profile design start */
+
+.wa{
+    height: 100px;
+    width: 160px;
+   
+}
+.wa1{
+    height: 100px;
+    width: 160px;
+}
+
+.wa{
+    position: absolute;
+    right: 60px;
+    top: 48px;
+    transition: transform 2s;
+}
+.wa1{
+    position: absolute;
+    left: 60px;
+    transition: transform 2s;
+    bottom: 13px;
+   
+   
+}
+.wa:hover{
+   
+    transform: rotate(360deg);
+}
+.wa1:hover{
+   
+    transform: rotate(360deg);
+}
+.j1 h1{
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem;
+}
+.j1 p{
+    color: black;
+    text-align: center;
+    width: 90%;
+    margin:  0 auto 20px auto;
+}
+
+.profile{
+    padding: 150px 10px;
+    position: relative;
+    text-align: center;
+}
+.profile::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* Profile design end */
+
+/* About me start */
+.about{
+    background-color:cornflowerblue;
+    color: white;
+    text-align: center;
+    padding: 1% 7%;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 35px;
+}
+.about::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.ip{
+    height: 200px;
+    width: 180px;
+    border: white solid 3px;
+    border-radius: 50%;
+}
+.about p{
+    text-align: center;
+}
+
+
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+}
+/* About me end */
+
+/* experience Start here */
+.experience{
+    padding: 1% 0%;
+    height: 700px;
+}
+.jss{
+    height: 100px;
+    width: 100px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+.card{
+    background-color: rgba(137, 43, 226, 0.676);
+    border-radius: 10px;
+    padding: 10px;
+    border: rgba(255, 0, 0, 0.421) solid 2px;
+    transition: 0.3s;
+   height: 700px;
+  
+}
+.card:hover{
+    box-shadow: 0 3px 4px 4px rgb(0, 26, 255);
+}
+.card-title h2{
+    background-color: rgb(64, 43, 226);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.card1{
+    background-color: rgba(43, 226, 104, 0.676);
+    border-radius: 10px;
+    padding: 10px;
+    border: rgba(255, 0, 0, 0.421) solid 2px;
+    transition: 0.3s;
+   height: 700px;
+  
+}
+.card1:hover{
+    box-shadow: 0 3px 4px 4px rgba(255, 47, 0, 0.639);
+}
+.card-title1 h2{
+    background-color: rgba(226, 43, 43, 0.683);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+.joy23::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* experience end here */
+
+
+
+/* Skill start here */
+
+.card2{
+    background-color: rgba(43, 220, 226, 0.855);
+    border-radius: 10px;
+    padding: 10px;
+    border: rgba(255, 0, 55, 0.421) solid 2px;
+    transition: 0.3s;
+   height: 700px;
+  
+}
+.card2:hover{
+    box-shadow: 0 3px 4px 4px black;
+}
+.card-title2 h2{
+    background-color: rgb(226, 43, 202);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+.skill{
+    padding-right: 45px;
+}
+
+.skill li{
+    list-style: none;
+    font-weight: bolder;
+    margin:35px 10px;
+    position: relative;
+}
+
+.skill li::before{
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    background-color: rgba(0, 0, 255, 0.172);
+    width: 100%;
+    height: 10px;
+    border-radius: 1000px;
+    left: 0;
+}
+
+.skill li::after{
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    background-color: rgb(0, 0, 255);
+    width: 0;
+    height: 10px;
+    border-radius: 1000px;
+    left: 0;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 4;
+}
+
+.skil li.ht::after{
+    animation-name: ht;
+}
+@keyframes ht{
+     to{
+        width: 90%;
+     }
+}
+
+.skil li.cs::after{
+    animation-name: cs;
+}
+@keyframes cs{
+     to{
+        width: 70%;
+     }
+}
+
+.skil li.ja::after{
+    animation-name: ja;
+}
+@keyframes ja{
+     to{
+        width: 60%;
+     }
+}
+
+.skil li.ph::after{
+    animation-name: ph;
+}
+@keyframes ph{
+     to{
+        width: 85%;
+     }
+}
+
+.skil li.c3::after{
+    animation-name: c3;
+}
+@keyframes c3{
+     to{
+        width: 98%;
+     }
+}
+
+.skil li.ja2::after{
+    animation-name: ja2;
+}
+@keyframes ja2{
+     to{
+        width: 59%;
+     }
+}
+
+.skil li.pr::after{
+    animation-name: pr;
+}
+@keyframes pr{
+     to{
+        width: 90%;
+     }
+}
+
+.skil li.bo::after{
+    animation-name: bo;
+}
+@keyframes bo{
+     to{
+        width: 79%;
+     }
+}
+
+.experience::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* Skill end here */
+
+
+/* application design start here */
+
+.joyy1{
+    text-align: center;
+    background-color: darkcyan;
+   margin-top: 1500px;
+   color: white;
+   
+}
+
+.k5{
+   width: 300px;
+   padding: 7px;
+   
+}
+.k5:hover{
+    background-color: hotpink;
+}
+.k6{
+    width: 70px;
+    left: 3px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+.k6:hover{
+    background-color: red;
+}
+
+.j3{
+   
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+   margin: 10px;
+   text-align: center;
+}
+
+.joyy1::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* application design end here */
+
+/*footer design start */
+
+.footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    
+}
+
+.footer::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.jx a{
+    padding: 10px;
+    margin-top: 5px;
+    display: block;
+}
+.jx a:hover{
+    color: red;
+}
+
+/*footer design end */
